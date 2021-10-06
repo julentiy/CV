@@ -1,0 +1,1 @@
+Идея оформления CV взята здесь: [https://www.figmacrush.com](https://www.figmacrush.com/figma-cv-resume-figma-template/)

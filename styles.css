@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    min-height: 100vh;
+    background: white;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.container {
+    background: red;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+ .left-aside {
+    width: 200px;
+    flex: 1;
+    background: gray;
+    color: white;
+}
+
+.content {
+    flex: 2;
+    background: rgb(237, 249, 250);
+}
+
+.photo {
+    width: 135px;
+    height: 140px;
+    border-radius: 50%;
+    /* background: pink; */
+    content: url("./images/me.jpg") ;
+    margin: 10px auto;
+    
+} 
+
+.info {
+    width: 100%;
+    padding: 10px 10px 20px;
+}
+
+.info__title {
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.contacts {
+    list-style: none;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.contacts__item {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-bottom: 15px;
+    overflow-wrap: anywhere;
+}
+
+.contacts__item-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.delimiter {
+    border: none;
+    height: 2px;
+    background: white;
+}
+
+.info_right{
+    padding: 10px 20px;
+    
+}
+
+.dates{
+    margin-top: 10px;
+}
